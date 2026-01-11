@@ -49,7 +49,3 @@ Natural-Language-Query-Executor/
 ├── README.md
 └── package.json
 
-
-
-## 🏗 Project Structure
-
