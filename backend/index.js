@@ -100,7 +100,7 @@ app.post("/check-normalization", async (req, res) => {
     type: row.DATA_TYPE,
   }));
 
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chat = model.startChat({ history: [] });
 
@@ -178,7 +178,7 @@ app.post("/generate-sql", async (req, res) => {
     type: row.DATA_TYPE,
   }));
 
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chat = model.startChat({ history: [] });
 
@@ -230,7 +230,7 @@ app.post("/explain-sql", async (req, res) => {
     type: row.DATA_TYPE,
   }));
 
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chat = model.startChat({ history: [] });
 
@@ -264,7 +264,7 @@ app.post("/analyze-sql", async (req, res) => {
     type: row.DATA_TYPE,
   }));
 
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chat = model.startChat({ history: [] });
 
@@ -299,7 +299,7 @@ app.post("/enhance-sql", async (req, res) => {
     type: row.DATA_TYPE,
   }));
 
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   const chat = model.startChat({ history: [] });
 
